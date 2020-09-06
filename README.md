@@ -7,42 +7,43 @@
 
 -- Oversampling data using random oversampler
 
-Accuracy Score: .67
-Precision for Low Risk: 1.00
-Precision for High Risk: 0.01
-Sensitivitiy for Low Risk: 0.61
-Sensitivity for High Risk: 0.72
+  - Accuracy Score: .67
+  - Precision for Low Risk: 1.00
+  - Precision for High Risk: 0.01
+  - Sensitivitiy for Low Risk: 0.61
+  - Sensitivity for High Risk: 0.72
 
 -- Oversampling data using SMOTE 
 
-Accuracy Score: .66
-Precision for Low Risk: 1.00
-Precision for High Risk: 0.01
-Sensitivitiy for Low Risk: 0.70
-Sensitivity for High Risk: 0.62
+  - Accuracy Score: .66
+  - Precision for Low Risk: 1.00
+  - Precision for High Risk: 0.01
+  - Sensitivitiy for Low Risk: 0.70
+  - Sensitivity for High Risk: 0.62
 
 -- Undersampling data using Cluster Centroids
 
-Accuracy Score: .54
-Precision for Low Risk: 1.00
-Precision for High Risk: 0.01
-Sensitivitiy for Low Risk: 0.42
-Sensitivity for High Risk: 0.67
+  - Accuracy Score: .54
+  - Precision for Low Risk: 1.00
+  - Precision for High Risk: 0.01
+  - Sensitivitiy for Low Risk: 0.42
+  - Sensitivity for High Risk: 0.67
 
 -- Undersampling data using Cluster Centroids
-Accuracy Score: .54
-Precision for Low Risk: 1.00
-Precision for High Risk: 0.01
-Sensitivitiy for Low Risk: 0.42
-Sensitivity for High Risk: 0.67
+
+  - Accuracy Score: .54
+  - Precision for Low Risk: 1.00
+  - Precision for High Risk: 0.01
+  - Sensitivitiy for Low Risk: 0.42
+  - Sensitivity for High Risk: 0.67
 
 -- Combination sampling with SMOTEENN
 
-Accuracy Score: .65
-Precision for Low Risk: 1.00
-Precision for High Risk: 0.01
-Sensitivitiy for Low Risk: 0.57
-Sensitivity for High Risk: 0.72
+  - Accuracy Score: .65
+  - Precision for Low Risk: 1.00
+  - Precision for High Risk: 0.01
+  - Sensitivitiy for Low Risk: 0.57
+  - Sensitivity for High Risk: 0.72
 
 ## Analysis
 Since it is very difficult to have both precision and sensitivity score 1, different scenarios will prefer one of the other measurement to score higher. In the case of credit risk, it is more important for the sensitivity to High Risk be high. This means that there is a large percentage of actual positives identified. Someone who assesses credit risk wants to make sure that all high risk loans are caught. It is not nearly as important for low risk loans to be identified correctly, as they inherently pose less of a threat. 
